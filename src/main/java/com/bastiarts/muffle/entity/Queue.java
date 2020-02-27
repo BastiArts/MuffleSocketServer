@@ -1,5 +1,8 @@
 package com.bastiarts.muffle.entity;
 
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * MuffleSocketServer
  *
@@ -13,4 +16,7 @@ package com.bastiarts.muffle.entity;
  * =====================================
  */
 public class Queue {
+    private long id = 0L;
+    private List<QueuedSong> songs = new LinkedList<>();
+
 }

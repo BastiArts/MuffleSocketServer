@@ -29,3 +29,65 @@ server.rootPath = /muffle
 
 </p>
 </details>
+<details><summary>Auth-Request</summary>
+<p>
+
+```JSON
+{"type":  "auth", "token":  ""}
+```
+
+</p>
+</details>
+
+<details><summary>Playlist-Requests</summary>
+<br><br> Add Song
+<p>
+
+```JSON
+{"type":  "addSongToPlaylist", "songID":  0, "playlistID":  0, "mufflerID":  0}
+```
+
+</p>
+Remove Song
+<p>
+
+```JSON
+{"type":  "removeSongFromPlaylist", "playlistID":  0, "songID":  0}
+```
+
+</p>
+Invite Muffler
+<p>
+
+```JSON
+{"type":  ""}
+```
+
+</p>
+</details>
+<details><summary>Session-Requests</summary>
+<br><br> Add Song
+<p>
+
+```JSON
+{"type":  "addSongToPlaylist", "songID":  0, "playlistID":  0, "mufflerID":  0}
+```
+
+</p>
+Remove Song
+<p>
+
+```JSON
+{"type":  "removeSongFromPlaylist", "playlistID":  0, "songID":  0}
+```
+
+</p>
+Invite Muffler
+<p>
+
+```JSON
+{"type":  ""}
+```
+
+</p>
+</details>
